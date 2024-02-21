@@ -1,0 +1,76 @@
+/* Fixed width content 
+width: 500px
+padding L/R 75px T/B 15px
+background page color of navy
+body background of white
+centre fixed width
+*/
+
+html {
+  background-color: navy;
+}
+
+body {
+  width: 500px;
+  padding: 15px 75px;
+  margin: 10px auto;
+  background-color: white;
+}
+
+.special {
+  border: 1px dashed black;
+  padding: 0px 10px;
+}
+
+#titlecontainer {
+  background: lightblue;
+  border: 2px solid navy;
+  border-radius: 10px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#pwcontainer {
+  background: lightgreen;
+  border: 2px solid green;
+  border-radius: 10px;
+  padding-left: 20px;
+  margin-top: 15px;
+}
+
+#pwcontainer input {
+  background: lightgreen;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  border: 2px solid darkgreen;
+  border-radius: 5px;
+}
+
+#codecontainer {
+  background: lightcoral;
+  border: 2px solid red;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.sindigin {
+  width: 50px;
+  height: 75px;
+  text-align: center;
+  font-size: 48px;
+  padding: 0px 5px;
+}
+
+#b1 {
+  padding: 7px 12px;
+  border: 2px solid green;
+  border-radius: 10px;
+  background-color: lightgreen;
+}
+
+#b1:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
